@@ -1,5 +1,7 @@
+import random
+randomWords = ["ducks", "jumbo", "lucky", "pills", "flour"]
+secret = random.choice (randomWords
 letter=""
-secret=""
 updatedWord = []
 
 def initialize():
@@ -23,6 +25,11 @@ def test():
         lives=life-1
         return lives
         
+def main():
+    initialize ()
+    getLetter ()
+    ifWon()
+main() 
         
     else life = 0:
         print=("you lost")         
